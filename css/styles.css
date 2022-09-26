@@ -428,7 +428,7 @@ body {
 
 .presentation__img-hide {
   display: none;
-  border-radius: 15% 0;
+  border-radius: 15% 0 0 0;
   border: 0.5em solid #fff;
   position: absolute;
   width: 100%;
@@ -489,6 +489,7 @@ body {
   background: linear-gradient(90deg, #124b4b, #008b8b);
   padding: 7em 0;
   margin-top: 3em;
+  position: relative;
 }
 
 .reviews:before {
@@ -502,6 +503,11 @@ body {
   background-image: url(../img/noise.png);
   opacity: 0.4;
 }
+
+.reviews__slide {
+  position: absolute;
+}
+
 
 
 
@@ -565,7 +571,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 15% 0 5% 0;
+  padding: 12% 0 5% 0;
   width: 100%;
 }
 
